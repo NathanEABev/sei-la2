@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+/*font-family: "Comic Relief", system-ui;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/*font-family: "Poetsen One", sans-serif;*/
+
+:root {
+    --font-title: "Poetsen One";
+    --font-corpo: "Comic Relief";
+    --cor1: #c00000;
+    --cor2: #F2FF49;
+    --cor3: #AFD2E9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-corpo);
+    color: var(--cor3);
+    text-align: center;
+}
+
+body {
+    background-color: rgb(44, 42, 42);
+}
+
+.nome {
+    font-family: var(--font-title);
+    color: var(--cor2);
+    font-size: 45px;
+}
+
+.foto {
+    max-width: 250px;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.linguagens {
+    font-weight: 800;
+}
+
+.linguagem {
+    background-color: var(--cor3);
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.linguagem:hover {
+    background-color: var(--cor2);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 799px) {
+    .escola, .empresa {
+        display: none;
+    }
+
+    .empresa {
+        font-size: 20px;
+        font-weight: 800px;
+    }
+
+    .escola {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .escola, .empresa {
+        display: inline;
+    }
+
+    .cor {
+        background-color: #c00000;
+        border-radius: 20px;
+        padding: 5px 20px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.titulo {
+    background-color: var(--cor1);
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.botao {
+    background-color: var(--cor1);
+    color: white;
+    border-radius: 20px;
+    padding: 7px 5px;
+}
+
+.botao:hover {
+    background-color: #df0000;
+}
+
+.coluna {
+    flex: 1 1 350px;
+    max-width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+
+a {
+    color: var(--cor3);
+    background-color: #c00000aa;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+header, footer {
+    margin-top: 30px;
+}
+
+.col-md-4 {
+    margin-bottom: 15px;
+}

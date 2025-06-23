@@ -1,0 +1,41 @@
+projeto 1
+https://github.com/NathanEABev/Calculadora
+https://nathaneabev.github.io/Calculadora/
+
+projeto 2
+https://github.com/NathanEABev/escolhas
+https://nathaneabev.github.io/escolhas/
+
+projeto 3
+https://github.com/NathanEABev/FlashCards
+https://nathaneabev.github.io/FlashCards/
+
+projeto 4
+https://github.com/NathanEABev/Personagem
+https://nathaneabev.github.io/Personagem/
+
+projeto 5
+https://github.com/NathanEABev/site-nexus
+https://nathaneabev.github.io/site-nexus/
+
+projeto 6
+https://github.com/NathanEABev/paginaweb
+https://nathaneabev.github.io/paginaweb/
+
+projeto 7
+https://github.com/NathanEABev/siteexemplofront
+https://nathaneabev.github.io/siteexemplofront/
+
+<!—PROJETO 1 --> 
+
+<div class="col-md-4">
+    <div class="card"> 
+        <img src="" class="card-img-top" alt="Imagem do projeto 1"> 
+        <div class="card-body"> 
+            <h5 class="card-title"> TÍTULO DO PROJETO 1 </h5> 
+            <p class="card-text"> DESCRIÇÃO DO PROJETO 1</p> 
+            <p> DESCRIÇÃO PROJETO 1 </p> 
+            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1"> BOTÃO 1 </button> 
+        </div> 
+    </div> 
+</div>
